@@ -16,7 +16,7 @@ Compare uploaded image with precomputed embeddings using KNN (Euclidean distance
 Display Top-5 most visually similar products from the dataset.
 
 📂 Project Structure
-'''
+```
 ├── main.py                                 # Streamlit web app (frontend)
 ├── Recommender System(Fashion_2).ipynb     # Notebook for training + embedding generation
 ├── encoder_weights.pth                     # Trained ResNet50 encoder
@@ -24,7 +24,7 @@ Display Top-5 most visually similar products from the dataset.
 ├── filenames_22.npy                        # Image filenames for lookup
 └── dataset/
     └── images/(Kaggle Dataset)             # Fashion product images
-'''
+```
 ⚙️ Installation & Setup
 1. Clone the Repository
 git clone https://github.com/your-username/fashion-recommender.git
